@@ -31,6 +31,6 @@ b) the network attaining the highest F1 score on the test set is stored at `<log
 To generate prediction for the test set using a trained network run  
 `python "segmentTestSet.py"`.  
 The name of the file containing the network, and the output directory are defined at the beginning of the script.
-The output is saved in form of numpy volumes, that you can view with the viewSegmentations script.
+The output is saved in form of numpy volumes, that you can view in the viewSegmentations notebook.
 
 
