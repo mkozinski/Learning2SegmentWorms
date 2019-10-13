@@ -5,7 +5,7 @@
 # how to use this code
 
 Create a new folder
-Clone general network training routines, the code for preprocessing of the dataset, and the experiment code into that folder 
+Clone general network training routines, the code for preprocessing of the dataset, and the experiment code into that folder  
 `git clone https://github.com/mkozinski/NetworkTraining_py`  
 `git clone https://github.com/mkozinski/WormData`  
 `git clone https://github.com/mkozinski/Learning2SegmentWorms`  
