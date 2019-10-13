@@ -58,8 +58,8 @@ def augmentTrain(img,lbl,cropSz):
   else:
     startind3=maxstartind3-njitter//2+randint(0,njitter)
   cropinds=[slice(startind1,startind1+cropSz[0]),
-            slice(startind2,startind2+cropSz[0]),
-            slice(startind3,startind3+cropSz[0])]
+            slice(startind2,startind2+cropSz[1]),
+            slice(startind3,startind3+cropSz[2])]
   img,_=crop(img,cropinds)
   lbl,_=crop(lbl,cropinds,fill=255)
 
