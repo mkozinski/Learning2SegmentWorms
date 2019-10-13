@@ -12,8 +12,10 @@ Clone general network training routines, the code for preprocessing of the datas
 
 To preprocess the dataset,
 1. Unzip Ksenia's data (AIY_neuron.zip and AIA\&AIB_neurons.zip) into the WormData directory
-1. Enter the WormData directory, run a python notebook, run the whole render_worm_gt notebook; This generates the ground truth volumes from the .swc files.
-1. In the WormData directory, from the shell, run ./split_data.sh; (if needed run chmod +x split_data.sh first); test generates the files: trainFiles... testFiles... containing the names of the training and test volumes
+1. Enter the WormData directory, run a python notebook, run the whole render_worm_gt notebook;
+This generates the ground truth volumes from the .swc files.
+1. In the WormData directory, from the shell, run ./split_data.sh; (if needed run chmod +x split_data.sh first); 
+This generates the files: trainFiles... testFiles... containing the names of the training and test volumes
 
 To run baseline training   
 `cd Learning2SegmentWorms`  
